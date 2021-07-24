@@ -12,7 +12,7 @@
   "plugins": [],
   // add your custom rules here
   "rules": {
-    "semi": "off",
+    "semi": ["error", "always"],
     "no-console": "error",
     "block-scoped-var": "error",
     "no-fallthrough": "error"
