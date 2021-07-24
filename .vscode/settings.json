@@ -1,0 +1,12 @@
+{
+  // フォーマッタをprettierに指定
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ファイル保存時にPrettierでフォーマット? ESLintでフォーマット?
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
